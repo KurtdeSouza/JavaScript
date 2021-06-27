@@ -1,0 +1,9 @@
+#resetGame {
+  display: none;
+}
+#display {
+  margin: 0 auto;
+  color: white;
+  padding: 3px;
+  background-color: white;
+}
