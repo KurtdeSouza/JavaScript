@@ -70,6 +70,7 @@ function resetGame() {
   display.style.backgroundColor = "white";
   document.getElementById("guesses").innerHTML = guesses.toString();
   document.getElementById("resetGame").style.display = "none";
+  guessField.focus();
 }
 
 function verify(guess) {
