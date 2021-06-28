@@ -4,7 +4,29 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Story Generator</title>
   </head>
-  <body></body>
+  <body>
+    <h1>Number Guessing Game</h1>
+    <div class="cusName">
+      <label for="nameField">Enter custome name: </label>
+      <input type="text" name="name" id="nameField" />
+    </div>
+    <br />
+
+    <div class="langButton">
+      <input type="radio" id="US" name="language" value="US" />
+      <label for="US">US</label>
+      <input type="radio" id="UK" name="language" value="UK" />
+      <label for="UK">UK</label>
+    </div>
+    <br />
+    <input type="submit" id="genStory" value="Generate Random Story" />
+    <p id="story"></p>
+    <script src="./index.js"></script>
+  </body>
 </html>
+
+<!-- <label for="guessField">Enter a guess: </label>
+    <input type="label" id="guessField" name="guess" />
+    <input type="submit" id="guessSubmit" value="Submit" /> -->
