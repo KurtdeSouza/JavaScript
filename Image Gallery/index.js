@@ -1,4 +1,4 @@
-const element1 = document.querySelectorAll("img");
+const element1 = document.querySelectorAll("div.thumbBar img");
 
 for (let i = 0; i < element1.length; i++) {
   element1[i].addEventListener("click", function () {
